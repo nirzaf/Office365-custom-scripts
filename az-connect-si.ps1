@@ -3,18 +3,6 @@ param(
     [switch]$noupdate = $false,   ## if -noupdate used then module will not be checked for more recent version
     [switch]$debug = $false       ## if -debug create a log file
 )
-<# CIAOPS
-Script provided as is. Use at own risk. No guarantees or warranty provided.
-
-Description - Script designed to login to Azure resources
-Source - https://github.com/directorcia/office365/blob/master/az-connect-si.ps1
-
-Prerequisites = 1
-1. Ensure Azure AZ.SecurityInsights module installed or updated
-
-Allow custom scripts to run just for this instance
-set-executionpolicy -executionpolicy bypass -scope currentuser -force
-#>
 
 ## Variables
 $systemmessagecolor = "cyan"

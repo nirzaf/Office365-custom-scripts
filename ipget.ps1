@@ -1,16 +1,3 @@
-<# CIAOPS
-Script provided as is. Use at own risk. No guarantees or warranty provided.
-
-Source - https://github.com/directorcia/Office365/blob/master/ipinf.ps1
-
-Description - Report IP information
-
-Prerequisites = 
-
-More scripts available by joining http://www.ciaopspatron.com
-
-#>
-
 ## Variables
 $systemmessagecolor = "cyan"
 $processmessagecolor = "green"
